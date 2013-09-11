@@ -1,7 +1,7 @@
 iOS7 Bootstrap v1.3
 ==============
 
-a Sleek, Amazing redition for bootstrap.
+a Sleek, Amazing rendition for bootstrap.
 
 Usage
 ==============
