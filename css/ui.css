@@ -1,0 +1,290 @@
+.btn {
+color: #167efb;
+background: none;
+border: none;
+font-size: 17px;
+min-height: 30px;
+line-height: 30px;
+cursor: pointer;
+}
+.btn:focus {
+color: #167efb;
+}
+.btn-primary {
+font-weight: bold;
+}
+.btn-danger {
+color: #e19807;
+}
+.btn-success {
+color: #97E67B;
+}
+.btn-warning {
+color: #ff3b30;
+}
+input, textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 7px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+-webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+input[type=search] {
+padding-left:30px;
+background-image:url('https://c9.io/coder01/ios-launchpad/workspace/img/search.png');
+background-repeat: no-repeat;
+}
+input[type=search]:hover {
+padding-left:30px;
+background-image:url('https://c9.io/coder01/ios-launchpad/workspace/img/search.png');
+background-repeat: no-repeat;
+}
+input[type=search]:focus {
+padding-left:30px;
+background-image:url('https://c9.io/coder01/ios-launchpad/workspace/img/search.png');
+background-repeat: no-repeat;
+}
+input:focus, textarea:focus {
+    padding: 7px;
+  box-shadow: 0 0 5px #567cab;
+  border: 1px solid #567cab;
+  -webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+}
+textarea {
+min-width: 300px;
+min-height: 100px;
+}
+.dd select {
+   background: transparent;
+   width: 150px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+    -webkit-appearance: none;
+    outline: none;
+    -webkit-border-radius: 2px;
+-moz-border-radius: 2px;
+border-radius: 2px;
+} 
+
+.dd {
+   width: 120px;
+   height: 34px;
+   overflow: hidden;
+   background:url(https://c9.io/coder01/ios-launchpad/workspace/img/arrow.png) no-repeat 96% #f5f5f5;
+}
+.blur {
+-webkit-filter: blur(10px);
+	filter: blur(10px);
+	height: 200px;
+	width: 200px;
+	background-color: #f5f5f5;
+	opacity: 0.5;
+}
+/**
+ * Switch-style checkboxes.
+ * Inspired by Espresso’s “Tools” switch
+ */
+
+input[type="checkbox"]:not(:checked), 
+input[type="checkbox"]:checked { /* :checked here acting as a filter for older browsers */
+	position: absolute;
+	opacity: 0;
+}
+
+label {
+	position: relative;
+	display: inline-block;
+	margin: 0 1em 1em 0;
+	font: 75% sans-serif;
+	text-shadow: 0 1px 1px white;
+}
+
+input[type="checkbox"].switch + div {
+	width: 1.8em;	height: 1em;
+	border: 1px solid rgba(0,0,0,.3);
+	border-radius: 999px;
+	margin: 0 auto .8em;
+	background-color: #8FFD78;
+	background-origin: border-box;
+	background-clip: border-box;
+	box-shadow: 0 1px 1px hsla(0,0%,100%,.8);
+	overflow: hidden;
+	transition-duration: .4s;
+	transition-property: padding, width;
+}
+
+input[type="checkbox"].switch:checked + div {
+	padding-left: .8em;
+	width: 1em;
+}
+
+input[type="checkbox"].switch + div:before {
+	content: '';
+	display: block;
+	width: 1em; height: 1em;
+	margin: -1px;
+	border: 1px solid #f1f1f1;
+	border-radius: inherit;
+	background: #f5f5f5;
+	box-shadow: 0 0 .5em rgba(0,0,0,.5),
+	            0 .2em hsla(0,0%,100%,.3) inset,
+	            0 -.1em .3em hsla(0,0%,0%,.2) inset;
+}
+
+input[type="checkbox"].switch:active + div:before {
+	background-color: #aaa;
+}
+
+input[type="checkbox"].switch:focus + div {
+	box-shadow: 0 0 .3em 1px red,
+	            0 1px 1px hsla(0,0%,100%,.8);
+}
+
+div {
+  margin:0 0 0.75em 0;
+}
+
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label {
+    color: #333;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+}
+input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+    -moz-border-radius:  50%;
+    border-radius:  50%;
+}
+
+input[type="radio"] + label span {
+     background-color:#505052;
+}
+
+input[type="radio"]:checked + label span{
+     background-color:#97E67B;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+  -webkit-transition:background-color 0.4s linear;
+  -o-transition:background-color 0.4s linear;
+  -moz-transition:background-color 0.4s linear;
+  transition:background-color 0.4s linear;
+}
+
+	#menu-outer {
+position: fixed;
+top: -2px;
+background-color: #f5f5f5;
+opacity: 0.5;
+width: 100%;
+z-index: 5000;
+margin-bottom: 70px;
+}
+.np {
+margin-bottom: 80px;
+}
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 10px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+		padding: 10px;
+border-right: 1px solid #dcdcdc;
+	}
+	li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 20px;
+	}
+	.modal {
+	position: fixed;
+	box-shadow: 5px 5px 5px #dcdcdc;
+	min-width: 300px;
+	min-height: 50px;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	top: 200px;
+	left: 800px;
+	padding: 20px;
+	}
+	.alert {
+	position: absolute;
+	box-shadow: 5px 5px 5px #dcdcdc;
+	background-color: #f5f5f5;
+	-webkit-border-radius: 7px;
+	padding: 20px;
+	}
+	.close {
+	border: none;
+	background: none;
+	font-size: 20px;
+	font-weight: normal;
+	}
+	.control-center {
+	height: 500px;
+	width: 100%;
+	bottom: -505px;
+	text-align: center;
+	background-color: #f5f5f5;
+	opacity: 0.5;
+	float: center;
+	padding: 20px;
+	z-index: 6000;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	background-image:url('https://c9.io/coder01/ios-launchpad/workspace/img/controlarrow.png') no-repeat;
+	z-index:200;
+	position:fixed;
+	}
+	.control-center:hover {
+	bottom: -220px;
+	}
+	.dropdown-menu {
+position: absolute;
+top: 100%;
+left: 0;
+z-index: 1000;
+display: none;
+float: left;
+min-width: 160px;
+padding: 5px 0;
+margin: 2px 0 0;
+list-style: none;
+background-color: #ffffff;
+border: 1px solid #ccc;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+}
