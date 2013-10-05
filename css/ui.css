@@ -82,72 +82,107 @@ border-radius: 2px;
    overflow: hidden;
    background:url(https://c9.io/coder01/ios-launchpad/workspace/img/arrow.png) no-repeat 96% #f5f5f5;
 }
-.blur {
--webkit-filter: blur(10px);
-	filter: blur(10px);
-	height: 200px;
-	width: 200px;
-	background-color: #f5f5f5;
-	opacity: 0.5;
-}
-/**
- * Switch-style checkboxes.
- * Inspired by Espresso’s “Tools” switch
- */
+/*
+  
+  iOS 7 Switch
+   
+  Sample Image : http://cdn.macrumors.com/article-new/2013/06/cellular.png
+  Dribble Shot : http://dribbble.com/shots/1109255--GIF-iOS-7-switch-3
 
-input[type="checkbox"]:not(:checked), 
-input[type="checkbox"]:checked { /* :checked here acting as a filter for older browsers */
+*/
+.holder{
+	width:56px;
+	margin:20px auto;
+	position:relative;
+}
+
+.check-ios{
+	visibility: hidden;
+}
+
+.holder span{
+	background-color:#e2e2e2;
+	display:block;
+	height:30px;
+	width:54px;
 	position: absolute;
-	opacity: 0;
+	top:0;
+	left:0;
+	z-index:1;	
+
+	-webkit-border-radius: 15px;
+	   -moz-border-radius: 15px;
+	        border-radius: 15px;
+
+	-webkit-transition: all .5s ease;
+	   -moz-transition: all .5s ease;
+	     -o-transition: all .5s ease;
+	    -ms-transition: all .5s ease;
+	        transition: all .5s ease;	
 }
 
-label {
-	position: relative;
-	display: inline-block;
-	margin: 0 1em 1em 0;
-	font: 75% sans-serif;
-	text-shadow: 0 1px 1px white;
+.holder span:after {
+	background-color:#fff;
+	content:'';
+	display:block;
+	height:28px;
+	width:52px;	
+	position: absolute;
+	top:1px;
+	left:1px;
+	z-index:2;
+
+	-webkit-border-radius: 14px;
+	   -moz-border-radius: 14px;
+	        border-radius: 14px;
+
+	-webkit-transition: all .4s ease;
+	   -moz-transition: all .4s ease;
+	     -o-transition: all .4s ease;
+	    -ms-transition: all .4s ease;
+	        transition: all .4s ease;
 }
 
-input[type="checkbox"].switch + div {
-	width: 1.8em;	height: 1em;
-	border: 1px solid rgba(0,0,0,.3);
-	border-radius: 999px;
-	margin: 0 auto .8em;
-	background-color: #8FFD78;
-	background-origin: border-box;
-	background-clip: border-box;
-	box-shadow: 0 1px 1px hsla(0,0%,100%,.8);
-	overflow: hidden;
-	transition-duration: .4s;
-	transition-property: padding, width;
-}
 
-input[type="checkbox"].switch:checked + div {
-	padding-left: .8em;
-	width: 1em;
-}
-
-input[type="checkbox"].switch + div:before {
-	content: '';
+.holder label{
+	background: #fff;
+	cursor: pointer;
 	display: block;
-	width: 1em; height: 1em;
-	margin: -1px;
-	border: 1px solid #f1f1f1;
-	border-radius: inherit;
-	background: #f5f5f5;
-	box-shadow: 0 0 .5em rgba(0,0,0,.5),
-	            0 .2em hsla(0,0%,100%,.3) inset,
-	            0 -.1em .3em hsla(0,0%,0%,.2) inset;
+	height: 28px;
+	width: 28px;
+	position: absolute;
+	top:1px;
+	left:1px;
+	z-index:3;	
+
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+
+	-webkit-transition: all .4s ease;
+	   -moz-transition: all .4s ease;
+	     -o-transition: all .4s ease;
+	    -ms-transition: all .4s ease;
+	        transition: all .4s ease;
+
+	-webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.3);
+	   -moz-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.3);
+			box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.3);
 }
 
-input[type="checkbox"].switch:active + div:before {
-	background-color: #aaa;
+.check-ios:checked ~ span {
+	background-color:#4FD065;
 }
 
-input[type="checkbox"].switch:focus + div {
-	box-shadow: 0 0 .3em 1px red,
-	            0 1px 1px hsla(0,0%,100%,.8);
+.check-ios:checked ~ span:after {
+	height:0;
+	width:0;
+	left:50%;
+	top:50%;
+}
+
+.check-ios:checked + label {
+	left: 25px;
 }
 
 div {
@@ -245,7 +280,7 @@ border-right: 1px solid #dcdcdc;
 	font-size: 20px;
 	font-weight: normal;
 	}
-	.control-center {
+	.controlcenter {
 	height: 500px;
 	width: 100%;
 	bottom: -505px;
@@ -259,13 +294,16 @@ border-right: 1px solid #dcdcdc;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
-	background-image:url('https://c9.io/coder01/ios-launchpad/workspace/img/controlarrow.png') no-repeat;
-	z-index:200;
 	position:fixed;
 	}
-	.control-center:hover {
+    .controlcenter:hover {
 	bottom: -220px;
 	}
+	.blur {
+-webkit-filter: blur(10px);
+	filter: blur(10px);
+	opacity: 0.5;
+}
 	.dropdown-menu {
 position: absolute;
 top: 100%;
