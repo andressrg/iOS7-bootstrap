@@ -1,7 +1,8 @@
 iOS 7 Bootstrap v2.0
 ==============
 
-a Sleek, Amazing rendition for bootstrap.
+iOS 7 UI, with CSS3, JavaScript & HTML5 remakes of Switches, Control Center, Dynamic Background with animated bubbles, modals and more.
+Just add this to boostrap and give your website the depth and vitality of iOS 7's great look and features.
 
 Usage
 ==============
@@ -12,4 +13,4 @@ then go to http://getbootstrap.com/getting-started/ where instructions will be o
 
 &copy; 2013 Everyday Apps (Brandon Jordan) | All Rights Reserved.
 
-<b>MORE UPDATES COMING SOON</b>
+<b>MORE UPDATES HAPPENING ALL THE TIME KEEP UPDATED!</b>
