@@ -30,4 +30,4 @@ the `<input/>` tag in your switches <b>MUST</b> unique id's. No two switches can
 New Dynamic Animated Bubbles
 ==============
 
-Look to the `boostrap.html`` for the `<div id="bubbles">`
+Look to the `boostrap.html` for the `<div id="bubbles">`
