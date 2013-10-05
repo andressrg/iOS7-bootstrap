@@ -8,6 +8,10 @@
 
 <link rel="stylesheet" href="css/ui.css"/>
 
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+
+<script type="text/javascript" src="http://www.blurjs.com/blur.min.js"></script>
+
 <script type="text/javascript" href="js/bootstrap.js"></script>
 
 <script type="text/javascript" href="js/parallax.js"></script>
@@ -19,8 +23,15 @@
 }
 </style>
 
+<script>
+$('.controlcenter').blurjs({
+	source: 'body',
+	radius: 10
+});
+</script>
+
 </head>
-<body>
+<body><div class="content" id="content">
 
 <div id='background'>
   <div id='foreground'>
@@ -73,7 +84,21 @@
 
 <br/><br/>
 
-<label style="font-size:100%"><input type="checkbox" class="switch"><div class="switch"></div></label>
+	<div class="holder">		
+		<input type="checkbox" value="None" id="check" name="check" class="check-ios"/>
+		<label for="check"></label>
+		<span></span>
+	</div>
+	<div class="holder">
+		<input type="checkbox" value="None" id="check_s" name="check" class="check-ios" checked />
+		<label for="check_s"></label>
+		<span></span>
+	</div>
+	<div class="holder">
+		<input type="checkbox" value="None" id="check_t" name="check" class="check-ios" checked />
+		<label for="check_t"></label>
+		<span></span>
+	</div>
 
   </div>
 </div>
@@ -90,7 +115,7 @@
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button><h3>Modal header</h3>
   </div>
   <div class="modal-body">
-    <p>One fine body…</p>
+    <p>One fine bodyâ€¦</p>
   </div>
   <div class="modal-footer">
     <a href="#" class="btn">Close</a>
@@ -100,15 +125,38 @@
 
 <div class="alert">OH! NO! This is an Alert! <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button></div>
 
-<div class="control-center"><br/>
+<center>
+<div id="bubbles">
+        <div class="bubble x1"></div>
+        <div class="bubble x2"></div>
+        <div class="bubble x3"></div>
+        <div class="bubble x4"></div>
+        <div class="bubble x5"></div>
+</div>
+</center>
+
+<div class="controlcenter" id="cc"><br/>
 
         <font size="20">Control Center</font><br/><br/>
 
-<label style="font-size:100%"><input type="checkbox" class="switch"><div class="switch"></div> Bluetooth</label>
-
-<label style="font-size:100%"><input type="checkbox" class="switch"><div class="switch"></div> Sounds</label>
-        
+	<div class="holder">		
+		<input type="checkbox" value="None" id="check_c" name="check" class="check-ios"/>
+		<label for="check_c"></label>
+		<span></span>
+	</div>
+	<div class="holder">
+		<input type="checkbox" value="None" id="check_d" name="check" class="check-ios" checked />
+		<label for="check_d"></label>
+		<span></span>
+	</div>
+	<div class="holder">
+		<input type="checkbox" value="None" id="check_r" name="check" class="check-ios" checked />
+		<label for="check_r"></label>
+		<span></span>
+	</div>
+	
     </div>
-
+    
+</div>
 </body>
 </html>
