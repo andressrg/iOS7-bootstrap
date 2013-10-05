@@ -14,3 +14,20 @@ then go to http://getbootstrap.com/getting-started/ where instructions will be o
 &copy; 2013 Everyday Apps (Brandon Jordan) | All Rights Reserved.
 
 <b>MORE UPDATES HAPPENING ALL THE TIME KEEP UPDATED!</b>
+
+New Switches
+==============
+Heres how to use them
+
+`<div class="holder">
+<input type="checkbox" value="None" id="check_t" name="check" class="check-ios" checked />
+<label for="check_t"></label>
+<span></span>
+</div>`
+
+the `<input/>` tag in your switches <b>MUST</b> unique id's. No two switches can have the same id.
+
+New Dynamic Animated Bubbles
+==============
+
+Look to the `boostrap.html`` for the `<div id="bubbles">`
