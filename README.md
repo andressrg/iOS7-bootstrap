@@ -31,3 +31,8 @@ New Dynamic Animated Bubbles
 ==============
 
 Look to the `boostrap.html` for the `<div id="bubbles">`
+
+New Tabs
+==============
+
+Look to the `boostrap.html`
