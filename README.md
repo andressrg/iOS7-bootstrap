@@ -1,4 +1,4 @@
-iOS7 Bootstrap v1.3
+iOS7 Bootstrap v2.0
 ==============
 
 a Sleek, Amazing rendition for bootstrap.
