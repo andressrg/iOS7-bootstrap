@@ -1,4 +1,6 @@
-/* iOS 7 Boostrap created by brandonjordan1 at https://github.com/brandonjordan1 */
+/* iOS 7 Boostrap created by brandonjordan1 at https://github.com/brandonjordan1 
+Credit for New Tabs goes to: https://github.com/hiloki/ 
+Credit for Switches goes to Burak Kaya on CodePen */
 
 .btn {
 color: #167efb;
@@ -327,4 +329,22 @@ box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 -webkit-background-clip: padding-box;
 -moz-background-clip: padding;
 background-clip: padding-box;
+}
+.space {
+margin-left: 10px;
+margin-right: 10px;
+}
+.segmented {
+display: table;
+border-radius: 6px;
+border: 1px solid #157dfa;
+table-layout: fixed;
+width: 100%;
+font-size: 13px;
+}
+.segmented__item {
+display: table-cell;
+}
+.segmented__item.is-active {
+background-color: #157dfa;
 }
