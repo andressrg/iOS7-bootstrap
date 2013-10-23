@@ -7,7 +7,7 @@ Just add this to boostrap and give your website the depth and vitality of iOS 7'
 Usage
 ==============
 
-Check out the bootstrap.html file for help
+Check out the `bootstrap.html` file for help
 
 then go to http://getbootstrap.com/getting-started/ where instructions will be on how to use bootstrap.
 
