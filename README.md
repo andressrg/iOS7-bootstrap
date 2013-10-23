@@ -11,6 +11,6 @@ Check out the `bootstrap.html` file for help
 
 then go to http://getbootstrap.com/getting-started/ where instructions will be on how to use bootstrap.
 
-&copy; 2013 Espire, Inc (Brandon Jordan) | All Rights Reserved.
+&copy; 2013 Espire, Inc. (Brandon Jordan) | All Rights Reserved.
 
 <b>MORE UPDATES HAPPENING ALL THE TIME KEEP UPDATED!</b>
