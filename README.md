@@ -11,6 +11,10 @@ Check out the `bootstrap.html` file for help
 
 then go to http://getbootstrap.com/getting-started/ where instructions will be on how to use bootstrap.
 
-&copy; 2013 Espire, Inc. (Brandon Jordan) | All Rights Reserved.
+Created by Brandon Jordan. All Rights Reserved.
 
-<b>MORE UPDATES HAPPENING ALL THE TIME KEEP UPDATED!</b>
+<hr/>
+
+Check out this resource for icons:
+
+http://findicons.com/pack/2770/ios_7_icons
