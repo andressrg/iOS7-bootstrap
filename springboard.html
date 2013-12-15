@@ -2,7 +2,10 @@
 <html>
 <head>
 
-<title>iOS 7 Launchpad</title>
+<title>iOS 7 Bootstrap - Springboard</title>
+
+<!--jQuery-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
 
 <link rel="stylesheet" href="css/ios7-bootstrap.css"/>
 
@@ -21,20 +24,22 @@
   <div class="table">
     <ul id="horizontal-list">
       <li><a href="bootstrap.html">Home</a></li>
-      <li><a href="launchpad.html">Launchpad</a></li>
+      <li><a href="springboard.html">Springboard</a></li>
     </ul>
   </div>
 </div>
 
-<table class="launchpad">
+<div class="content">
 
+<table class="launchpad" id="launchpad">
 <tr>
-    
 <td>
 
 <a href="#mail"><table style="text-align: center;"><tr><td>
 
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/mail_icon.png" class="app-icon"/></td>
+<div class="badge">36</div>
+
+<img src="https://www.icloud.com/system/cloudos/1U.115297/cloudos_foundation/springboard/1U.115297/en-us/source/resources/images/mail_icon.png" class="app-icon"/></td>
     
 </tr><tr><td>
 
@@ -48,11 +53,11 @@
 
 <a href="#people"><table style="text-align: center;"><tr><td>
 
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
+<img src="https://www.icloud.com/system/cloudos/1U.115297/cloudos_foundation/springboard/1U.115297/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
     
 </tr><tr><td>
 
-<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">People</span></div>
+<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Contacts</span></div>
 
 </td></tr></table></a>
 
@@ -62,7 +67,7 @@
 
 <a href="#notes"><table style="text-align: center;"><tr><td>
 
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/notes_icon.png" class="app-icon"/></td>
+<img src="https://www.icloud.com/system/cloudos/1U.115297/cloudos_foundation/springboard/1U.115297/en-us/source/resources/images/notes_icon.png" class="app-icon"/></td>
     
 </tr><tr><td>
 
@@ -76,6 +81,72 @@
 
 <table style="text-align: center;"><tr><td>
 
+<div class="badge">4</div>
+
+<img src="https://www.icloud.com/system/cloudos/1U.115297/cloudos_foundation/springboard/1U.115297/en-us/source/resources/images/reminders_icon.png" class="app-icon"/></td>
+    
+</tr><tr><td>
+
+<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Reminders</span></div>
+
+</td></tr></table>
+
+    
+</td>
+    
+</tr>
+
+<tr>
+    
+<td>
+    
+
+<table style="text-align: center;"><tr><td>
+
+<div class="badge">2</div>
+
+<img src="https://www.icloud.com/system/cloudos/1U.115297/cloudos_foundation/springboard/1U.115297/en-us/source/resources/images/find_icon.png" class="app-icon"/></td>
+    
+</tr><tr><td>
+
+<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Find My iPhone</span></div>
+
+</td></tr></table>
+
+
+</td><td>
+
+
+<table style="text-align: center;"><tr><td id="afolder"><center><div id="folder"><div id="folder-container">
+
+<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon folder-icon"/>
+    
+</div></div></center></td></tr><tr><td>
+
+<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">New Folder</span></div>
+
+</td></tr></table>
+
+
+</td><td>
+
+
+<table style="text-align: center;"><tr><td>
+
+<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
+    
+</tr><tr><td>
+
+<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Contacts</span></div>
+
+</td></tr></table>
+
+
+</td><td>
+
+
+<table style="text-align: center;"><tr><td>
+
 <img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
     
 </tr><tr><td>
@@ -124,6 +195,8 @@
 
 <table style="text-align: center;"><tr><td>
 
+<div class="badge">36</div>
+
 <img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
     
 </tr><tr><td>
@@ -138,6 +211,8 @@
 
 <table style="text-align: center;"><tr><td>
 
+<div class="badge">2</div>
+
 <img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
     
 </tr><tr><td>
@@ -146,74 +221,11 @@
 
 </td></tr></table>
 
-    
 </td>
-    
 </tr>
-
-<tr>
-    
-<td>
-    
-
-<table style="text-align: center;"><tr><td>
-
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
-    
-</tr><tr><td>
-
-<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Contacts</span></div>
-
-</td></tr></table>
-
-
-</td><td>
-
-
-<table style="text-align: center;"><tr><td>
-
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
-    
-</tr><tr><td>
-
-<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Contacts</span></div>
-
-</td></tr></table>
-
-
-</td><td>
-
-
-<table style="text-align: center;"><tr><td>
-
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
-    
-</tr><tr><td>
-
-<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Contacts</span></div>
-
-</td></tr></table>
-
-
-</td><td>
-
-
-<table style="text-align: center;"><tr><td>
-
-<img src="https://beta.icloud.com/system/cloudos/1SBeta.102619/en-us/source/resources/images/contacts_icon.png" class="app-icon"/></td>
-    
-</tr><tr><td>
-
-<div class="sb-title sb-el sc1829-label" style="width: 202px;height: 28px; top: 161px; font-size: 21px; color: rgb(255, 255, 255); text-shadow: rgba(0, 0, 0, 0.247059) 0px 7px 15px;"><span class="sb-title-text">Contacts</span></div>
-
-</td></tr></table>
-
-    
-</td>
-    
-</tr>
-
 </table>
+
+</div>
 
 <center>
 <div id="bubbles">
@@ -224,6 +236,14 @@
         <div class="bubble x5"></div>
 </div>
 </center>
+
+<script src="http://lab.hakim.se/zoom-js/js/zoom.js"></script>
+
+		<script>
+			document.querySelector( '#folder-container' ).addEventListener( 'click', function( event ) {
+				zoom.to({ element: event.target });
+			} );
+		</script>
 
 </body>
 </html>
