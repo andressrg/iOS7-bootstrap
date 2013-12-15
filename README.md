@@ -1,4 +1,4 @@
-iOS 7 Bootstrap v2.0
+iOS 7 Bootstrap v2.2
 ==============
 
 iOS 7 UI, with CSS3, JavaScript & HTML5 remakes of Switches, Control Center, Dynamic Background with animated bubbles, modals and more.
